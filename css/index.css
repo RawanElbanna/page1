@@ -1,1 +1,43 @@
-
+body{
+  background-color: #0F2940;
+  background-image: radial-gradient( #337AA6,   #132940 );
+  margin: 0%;
+  padding: 0%;
+}
+.first{
+  background-image: url('../images/bg-intro-desktop.png');
+  height: 707px;
+  background-position: center;
+  background-size: 60%;
+}
+.container p{
+background-color: rgba(255, 255, 255, 0.6);
+color: black;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+border: 2px solid #fff;
+padding: 15px;
+border-radius: 30px 0 30px 0;
+margin-top: 110px;
+font-weight: 500;
+}
+.container p:hover{
+  transition: 1s;
+  background-color: #fff;
+}
+a:hover{
+  text-decoration: none;
+}
+.container i{
+  color: #fff;
+  font-size: 30px;
+  border: 1px solid #fff;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+@media(max-width:767px){
+  .first{
+    height: 1530px;
+  }
+}
